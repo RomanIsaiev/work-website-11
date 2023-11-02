@@ -513,7 +513,7 @@ img {
 
 .sect-two-list .list-item {
   display: flex;
-  gap: 5px;
+  gap: 10px;
   align-items: center;
   max-width: 261px;
 }
