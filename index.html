@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Unbounded:wght@200;300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <picture
+          ><source
+            srcset="
+              ./images/header-decoration-face-1x.png 1x,
+              ./images/header-decoration-face-2x.png 2x
+            "
+            media="(min-width: 320px)"
+            width="170"
+            height="170" />
+          <img
+            class="header-decoration-face"
+            src="./images/header-decoration-face-1x.png"
+            alt=""
+            width="170"
+            height="170"
+        /></picture>
+        <p class="header-start">Старт 10 листопада</p>
+        <p class="header-course-category">Онлайн–інтенсив</p>
+        <h1 class="header-title">
+          Складна колористика <br /><span>– легко!</span>
+        </h1>
+        <p class="header-description">
+          Отримайте базові знання в колористиці і почніть фарбувати вже за
+          тиждень
+        </p>
+        <a class="header-button link" href="link">Приєднатись</a>
+        <div class="header-sale-mark">
+          <picture
+            ><source
+              srcset="
+                ./images/header-mark-1x.png 1x,
+                ./images/header-mark-2x.png 2x
+              "
+              media="(min-width: 320px)"
+              width="82"
+              height="82" />
+            <img
+              class="sale-mark"
+              src="./images/header-mark-1x.png"
+              alt=""
+              width="82"
+              height="82"
+          /></picture>
+          <p class="sale-number">-80%</p>
+        </div>
+        <p class="sale-timer-text">Знижка може зникнути через:</p>
+        <div id="countdown" class="countdown">
+          <div class="countdown-number">
+            <span class="hours countdown-time"></span>
+          </div>
+          <div><span class="countdown-doubledot"></span></div>
+          <div class="countdown-number">
+            <span class="minutes countdown-time"></span>
+          </div>
+          <div><span class="countdown-doubledot"></span></div>
+          <div class="countdown-number">
+            <span class="seconds countdown-time"></span>
+          </div>
+        </div>
+        <p class="header-bonus">
+          Встигніть зареєструватися протягом доби та отримайте <span
+            >бонусний урок в подарунок</span
+          >
+        </p>
+        <picture
+          ><source
+            srcset="
+              ./images/header-bonus-image-1x.png 1x,
+              ./images/header-bonus-image-1x.png 2x
+            "
+            media="(min-width: 320px)"
+            width="122"
+            height="148" />
+          <img
+            class="bonus"
+            src="./images/header-bonus-image-1x.png"
+            alt="bonus"
+            width="122"
+            height="148"
+        /></picture>
+      </div>
+    </header>
+    <main>
+      <section class="section-one">
+        <div class="container">
+          <h2 class="sect-one-title">Для кого інтенсив</h2>
+          <ul class="sect-one-list list">
+            <li class="list-item">
+              <p class="list-item-accent">Цей інтенсив підійде для тих,</p>
+              <p class="list-item-text">
+                хто хоче навчитись фарбувати волосся з "0". Або для тих хто
+                працює, але відчуває брак базових знань в колористиці
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="list-item-accent">Якщо ви хочете опанувати професію,</p>
+              <p class="list-item-text">
+                яка дозволить Вам заробляти від 300$ на місяць і більше
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="list-item-accent">
+                Мрієте з дитинства стати перукарем,
+              </p>
+              <p class="list-item-text">
+                але батьки сказали, що це не престижно і тепер фарбуєте тільки
+                куму на кухні. Мрієте про власний салон та думаєте, що вже пізно
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="list-item-accent">
+                Ви перукар, але досі "мороз по шкірі" від думки про фарбування
+              </p>
+              <p class="list-item-text">
+                А якщо заходить блондинка і хочеться провалитись крізь землю
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="list-item-accent">
+                Якщо продовжуєте фарбувати своїх клієнтів
+              </p>
+              <p class="list-item-text">
+                в салоні Palette і Garnjer і продовжуєш втрачати свій заробіток
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="list-item-accent">
+                Якщо ви молитеся перед фарбуванням,
+              </p>
+              <p class="list-item-text">щоб потрапити в колір</p>
+            </li>
+            <li class="list-item">
+              <p class="list-item-accent">Набридло працювати на когось</p>
+              <p class="list-item-text">
+                і хочете незалежності та мати власну справу
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-two">
+        <div class="container">
+          <h2 class="sect-two-title">про автора</h2>
+          <picture
+            ><source
+              srcset="
+                ./images/author-photo-1x.png 1x,
+                ./images/author-photo-2x.png 2x
+              "
+              media="(min-width: 320px)"
+              width="320"
+              height="320" />
+            <img
+              class="author-image"
+              src="./images/author-photo-1x.png"
+              alt="Світлана Гринчук"
+              width="320"
+              height="320"
+          /></picture>
+          <h3 class="author-name">Світлана Гринчук</h3>
+          <p class="author-experience">
+            перукар-колорист з 16 річним досвідом роботи
+          </p>
+          <ul class="sect-two-list list">
+            <li class="list-item">
+              <svg width="5" height="5">
+                <use
+                  width="5"
+                  height="5"
+                  href="./images/svg/symbol-defs.svg#icon-red-dot-list"
+                ></use>
+              </svg>
+              <p>9 років тому почала більш глибоко цікавитись колористикою</p>
+            </li>
+            <li class="list-item">
+              <svg width="5" height="5">
+                <use
+                  width="5"
+                  height="5"
+                  href="./images/svg/symbol-defs.svg#icon-red-dot-list"
+                ></use>
+              </svg>
+              <p>
+                Пройшла шлях від обезбарвлення пудрою "Акварель" до найкращих
+                професійних фарб, знебарвлюючих порошків та плексів
+              </p>
+            </li>
+            <li class="list-item">
+              <svg width="5" height="5">
+                <use
+                  width="5"
+                  height="5"
+                  href="./images/svg/symbol-defs.svg#icon-red-dot-list"
+                ></use>
+              </svg>
+              <p>
+                Постійно навчаюсь і не зупиняючись досягла вагомих результатів в
+                підвищенні якості своєї роботи
+              </p>
+            </li>
+            <li class="list-item">
+              <svg width="5" height="5">
+                <use
+                  width="5"
+                  height="5"
+                  href="./images/svg/symbol-defs.svg#icon-red-dot-list"
+                ></use>
+              </svg>
+              <p>
+                Отримала більше 30 сертифікатів з різних тем у перукарській
+                справі
+              </p>
+            </li>
+            <li class="list-item">
+              <svg width="5" height="5">
+                <use
+                  width="5"
+                  height="5"
+                  href="./images/svg/symbol-defs.svg#icon-red-dot-list"
+                ></use>
+              </svg>
+              <p>
+                Мене надихають радісні обличчя клієнтів та красиве, якісно
+                пофарбоване волосся
+              </p>
+            </li>
+          </ul>
+          <div class="wrapper">
+            <picture
+              ><source
+                srcset="
+                  ./images/section-three-wrapper-decor-mobile-1x.png 1x,
+                  ./images/section-three-wrapper-decor-mobile-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="135"
+                height="135" />
+              <img
+                class="two-wrapper-decor"
+                src="./images/section-three-wrapper-decor-mobile-1x.png"
+                alt="Світлана Гринчук"
+                width="135"
+                height="135"
+            /></picture>
+            <h3 class="wrapper-title">про інтенсив</h3>
+            <ul class="two-list-wrapper list">
+              <li class="list-item">
+                <svg width="20" height="14">
+                  <use
+                    width="20"
+                    height="14"
+                    href="./images/svg/symbol-defs.svg#icon-check-markup-item"
+                  ></use>
+                </svg>
+                <p>
+                  Це інтенсив, після якого, ви вже не будете такою, як раніше!
+                  Зрозумієте, що колористика простою мовою - це легко
+                </p>
+              </li>
+              <li class="list-item">
+                <svg width="20" height="14">
+                  <use
+                    width="20"
+                    height="14"
+                    href="./images/svg/symbol-defs.svg#icon-check-markup-item"
+                  ></use>
+                </svg>
+                <p>
+                  Почнете розбиратися в основних поняттях та розуміти базову
+                  колористику і зможете починати роботу з фарбуванням
+                </p>
+              </li>
+              <li class="list-item">
+                <svg width="20" height="14">
+                  <use
+                    width="20"
+                    height="14"
+                    href="./images/svg/symbol-defs.svg#icon-check-markup-item"
+                  ></use>
+                </svg>
+                <p>Позбудетесь страху фарбування</p>
+              </li>
+            </ul>
+            <p class="wrapper-alert">ВАЖЛИВО!!!</p>
+            <p class="wrapper-text">
+              Цей курс не є повноцінним навчальним курсом, що дає професію. Але 
+              відкриває найнеобхідніші розуміння в колористиці
+            </p>
+          </div>
+          <h2 class="course-program">програма інтенсиву</h2>
+          <p class="program-description">
+            Інтенсив складається з трьох модулів, які включають в себе по 5
+            уроків. Де лаконічно, але зрозумілою мовою викладена вся
+            колористика.
+          </p>
+          <div class="faq">
+            <div class="question open isOpen">
+              <div class="question-name">
+                <p>Модуль 1</p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content">
+                <ol>
+                  <li>Привітання</li>
+                  <li>Хто такий перукар</li>
+                  <li>Що потрібно знати, щоб почати працювати колористом</li>
+                  <li>Інструменти та приладдя колориста</li>
+                  <li>В чому шлях до успіху колориста</li>
+                </ol>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Модуль 2</p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content">
+                <ol>
+                  <li>
+                    З чого починається фарбування. Оцінка шкіри і волосся
+                    клієнта
+                  </li>
+                  <li>Для чого колористу фарбкарта. Вчимося читати колір</li>
+                  <li>Мікстони чи корекція палітрою</li>
+                  <li>Чому знання про колір такі важливі</li>
+                  <li>Зірка Освальда. Круг Ньютона</li>
+                </ol>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Модуль 3</p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content">
+                <ol>
+                  <li>Фон освітлення. Нейтралізація. Правило 11</li>
+                  <li>Будова волосся</li>
+                  <li>Які є види фарбників</li>
+                  <li>Види окисників</li>
+                  <li>Що таке репігментація. Та коли вона потрібна</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-three">
+        <div class="container">
+          <div class="wrapper">
+            <h3 class="wrapper-title">це все<br /><span>за ціною</span></h3>
+            <div class="second-wrapper">
+              <p class="old-price">2200грн</p>
+              <p class="new-price">444грн</p>
+            </div>
+            <p class="price-description">
+              Встигніть придбати зі <span>знижкою 80%</span>
+            </p>
+          </div>
+          <button class="buy-button" type="module" data-action="open-modal">
+            ПЕРЕЙТИ ДО ПОКУПКИ
+          </button>
+          <p class="wrapper-description">
+            Доступ до матеріалів:<br />
+            <span>2 місяці зі зворотнім зв'язком в телеграм каналі</span>
+          </p>
+        </div>
+      </section>
+      <section class="section-four">
+        <div class="container">
+          <h2 class="sect-four-title">Відгук про навчання</h2>
+          <picture
+            ><source
+              srcset="
+                ./images/feedback-mobile-1x.png 1x,
+                ./images/feedback-mobile-2x.png 2x
+              "
+              media="(min-width: 320px)"
+              width="204"
+              height="345" />
+            <img
+              class="feedback"
+              src="./images/feedback-mobile-1x.png"
+              alt="bonus"
+              width="204"
+              height="345"
+          /></picture>
+          <h2 class="sect-four-title-two">Відповіді на питання</h2>
+          <div class="faq-two">
+            <div class="question-two open isOpen">
+              <div class="question-two-name">
+                <p>Чи можна стати колористом з "0" онлайн?</p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content-two">
+                <p>Так, це можливо</p>
+                <p>
+                  Колористу навідмінно від перукаря не потрібно знати геометрію
+                  стрижки. Не потрібно володіти навиками тримання ножиць.
+                </p>
+                <p>
+                  Не потрібно вчитись цьому роки Все що потрібно це знати як
+                  правильно розділяти волосяний покрій голови на зони і як
+                  правильно змішати готові компоненти. Розподіл волосся на зони
+                  це навик якому можна навчитись за 1 урок. А щоб навчитись, що
+                  з чим змішати потрібно просто знати базову колористику
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>
+                  Чому на фарбуванні волосся можна заробляти швидше і більше?
+                </p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content-two">
+                <p>
+                  На сьогоднішній день колористика має найвищий чек серед
+                  перукарських послуг. І люди найчастіше роблять фарбування,
+                  аніж інші процедури
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Отримати колір, який хоче клієнт - це важко</p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content-two">
+                <p>
+                  Помиляєтесь. Вже винайдені готові формули змішування фарбників
+                  в потрібній пропорції. Змішали, нанесли і через встановлений
+                  час потрібний колір готовий. Краса і швидкий дохід
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Чи є гарантія, що після курсу, я буду фарбувати</p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content-two">
+                <p>
+                  Гарантії немає ні в чому. Іноді нам доводиться вибирати:
+                  тратити гроші і час на те, що потрібно зараз, або навчитись
+                  чомусь новому
+                </p>
+                <p>
+                  Якщо не виділяти час навчанню і розвитку, то життя може
+                  виявитись не таким цікавим і захоплюючим. Ми маємо наполегливо
+                  трудитися, щоб втілювати свої мрії і піклуватися про себе,
+                  навіть якщо для цього доводиться іти на жертви
+                </p>
+                <p>
+                  І я даю гарантію, що після проходження курсу, ви відкриєте для
+                  себе шлях в професію колориста
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>
+                  Чому я маю обрати саме мене як наставника? Хто я така, щоб
+                  навчати?
+                </p>
+                <svg class="question-plus" width="18" height="18">
+                  <use
+                    href="./images/svg/symbol-defs.svg#icon-question-plus"
+                    width="18"
+                    height="18"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content-two">
+                <p>
+                  Я нікого не змушую, кожен сам обирає з ким і як йому зручно
+                  проходити свій шлях
+                </p>
+                <p>
+                  Я не буду розповідати про величезний дохід б'юті майстра та
+                  про надлюдські можливості. Я пройшла дорогу від найнятого
+                  працівника до приватного майстра, з вдосконаленням себе і
+                  росту і навчу заробляти навіть в невеликому місті або селі
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/faq.js"></script>
+    <script src="./js/timer.js"></script>
+  </body>
+</html>

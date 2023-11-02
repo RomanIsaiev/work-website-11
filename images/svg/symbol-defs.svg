@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-question-plus" viewBox="0 0 32 32">
+      <path d="M31.542 18.549H18.55v12.992h-4.331V18.549H1.227v-4.331h12.992V1.226h4.331v12.992h12.992v4.331z"/>
+    </symbol>
+      <symbol id="icon-check-markup-item" viewBox="0 0 46 32">
+      <path fill="#fb2357" d="M17.143 32 0 14.454l2.693-2.757 14.45 14.787L43.021-.001l2.693 2.757-28.571 29.243z" style="fill:var(--color1, #fb2357)"/>
+    </symbol>
+    <symbol id="icon-red-dot-list" viewBox="0 0 32 32">
+      <path fill="#e91717" d="M29.333 16c0 7.364-5.97 13.333-13.333 13.333S2.667 23.363 2.667 16C2.667 8.636 8.637 2.667 16 2.667S29.333 8.637 29.333 16z" style="fill:var(--color1, #e91717)"/>
+    </symbol>
+  </defs>
+</svg>
