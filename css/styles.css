@@ -39,6 +39,18 @@ img {
   max-width: 360px;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
 /* header */
 
 .header {
@@ -335,6 +347,82 @@ img {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .header .container {
+    max-width: 400px;
+  }
+
+  .header-title {
+    font-size: 34px;
+  }
+
+  .header-title span {
+    font-size: 64px;
+  }
+
+  .header-button {
+    width: 380px;
+  }
+
+  .header-sale-mark {
+    position: absolute;
+    top: 360px;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    padding-top: 35px;
+    padding-bottom: 80px;
+  }
+
+  .header .container {
+    max-width: 480px;
+  }
+
+  .header-start {
+    font-size: 16px;
+    padding: 5px 8px;
+    max-width: 191px;
+    margin-bottom: 80px;
+  }
+
+  .header-title {
+    font-size: 51px;
+  }
+
+  .header-title span {
+    font-size: 96px;
+  }
+
+  .header-description {
+    font-size: 20px;
+    max-width: 384px;
+  }
+
+  .header-button {
+    width: 431px;
+    padding: 15px 130px;
+  }
+
+  .header-sale-mark {
+    position: absolute;
+    top: 425px;
+    right: 0;
+  }
+
+  .sale-timer-text {
+    font-size: 16px;
+    max-width: 202px;
+  }
+
+  .header-bonus {
+    font-size: 16px;
+    max-width: 280px;
+  }
+}
+
 /* section-one */
 
 .section-one {
@@ -410,6 +498,50 @@ img {
   line-height: 130%; /* 18.2px */
 }
 
+@media screen and (min-width: 1280px) {
+  .section-one {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    background-image: url(../images/section-one-background-desktop-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-one {
+      background-image: url(../images/section-one-background-desktop-2x.jpg);
+    }
+  }
+
+  .sect-one-title {
+    font-size: 32px;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .sect-one-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+  }
+
+  .sect-one-list .list-item {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 156px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 /* section-two */
 
 .section-two {
@@ -448,6 +580,7 @@ img {
 
 .section-two .author-image {
   width: 100%;
+  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
 
@@ -526,6 +659,11 @@ img {
   border: 1px solid var(--accent, #fb2357);
 
   margin-bottom: 20px;
+
+  max-width: 320px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .two-wrapper-decor {
@@ -739,6 +877,127 @@ img {
   transform: rotate(45deg);
 }
 
+@media screen and (min-width: 1280px) {
+  .section-two {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .section-two .container {
+    max-width: 849px;
+  }
+
+  .sect-two-title {
+    font-size: 32px;
+    max-width: 180px;
+  }
+
+  .section-two .author-image {
+    width: 100%;
+    max-width: 427px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 20px;
+  }
+
+  .section-two-flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    margin-bottom: 80px;
+  }
+
+  .author-name {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .author-experience {
+    font-size: 18px;
+    text-align: left;
+    max-width: 270px;
+
+    margin-left: unset;
+    margin-right: auto;
+  }
+
+  .author-experience::after {
+    margin-left: unset;
+  }
+
+  .sect-two-list {
+    margin-bottom: 0;
+  }
+
+  .sect-two-list .list-item p {
+    color: var(--black, #070707);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    max-width: 350px;
+  }
+
+  .sect-two-list .list-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    max-width: 380px;
+  }
+
+  .section-two .wrapper {
+    max-width: 487px;
+    padding: 40px;
+    margin-bottom: 80px;
+  }
+
+  .two-list-wrapper {
+    align-items: flex-start;
+  }
+
+  .two-list-wrapper .list-item {
+    max-width: 400px;
+  }
+
+  .two-list-wrapper .list-item p {
+    max-width: 365px;
+  }
+
+  .wrapper-alert {
+    font-size: 15px;
+  }
+
+  .wrapper-text {
+    font-size: 15px;
+    max-width: 380px;
+  }
+
+  .course-program {
+    font-size: 32px;
+    max-width: 240px;
+  }
+
+  .program-description {
+    font-size: 16px;
+    max-width: 408px;
+  }
+
+  .question {
+    max-width: 408px;
+    font-size: 18px;
+
+    cursor: pointer;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+}
+
 /* section-three */
 
 .section-three {
@@ -847,6 +1106,7 @@ img {
 }
 
 .buy-button {
+  display: block;
   color: #fff;
   text-align: center;
   font-family: Manrope;
@@ -864,6 +1124,9 @@ img {
 
   max-width: 320px;
   width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
 
   margin-bottom: 10px;
 }
@@ -885,6 +1148,34 @@ img {
 
 .wrapper-description span {
   font-weight: 500;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-three {
+    padding-top: 80;
+    padding-bottom: 80px;
+  }
+
+  .section-three .wrapper {
+    max-width: 360px;
+    margin-bottom: 30px;
+  }
+
+  .price-description {
+    font-size: 14px;
+    max-width: 236px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buy-button {
+    max-width: 358px;
+  }
+
+  .wrapper-description {
+    font-size: 16px;
+    max-width: 233px;
+  }
 }
 
 /* section-four */
@@ -912,6 +1203,11 @@ img {
   text-transform: uppercase;
 
   margin-bottom: 10px;
+
+  max-width: 281px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-four .feedback {
@@ -934,6 +1230,10 @@ img {
   text-transform: uppercase;
 
   margin-bottom: 20px;
+
+  max-width: 281px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* faq-02 */
@@ -1009,4 +1309,28 @@ img {
 }
 .question-two.open .question-plus {
   transform: rotate(45deg);
+}
+
+@media screen and (min-width: 1280px) {
+  .section-four {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .section-four .feedback {
+    margin-bottom: 60px;
+  }
+
+  .question-two {
+    max-width: 408px;
+  }
+
+  .question-two-name > p {
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .content-two p {
+    font-size: 16px;
+  }
 }
