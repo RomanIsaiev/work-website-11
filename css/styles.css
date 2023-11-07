@@ -134,6 +134,8 @@ img {
   line-height: normal;
 
   margin-bottom: 80px;
+
+  max-width: 260px;
 }
 
 .header-button {
@@ -188,7 +190,7 @@ img {
 
 .header-sale-mark {
   position: absolute;
-  top: 340px;
+  top: 360px;
   right: 33px;
 }
 
@@ -366,7 +368,7 @@ img {
 
   .header-sale-mark {
     position: absolute;
-    top: 360px;
+    top: 370px;
     right: 0;
   }
 }
@@ -664,6 +666,8 @@ img {
 
   margin-left: auto;
   margin-right: auto;
+
+  margin-bottom: 80px;
 }
 
 .two-wrapper-decor {
@@ -827,7 +831,7 @@ img {
 }
 
 .content ol {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-left: 15px;
 
   display: flex;
@@ -1045,7 +1049,7 @@ img {
   text-transform: uppercase;
 }
 
-.wrapper-title::after {
+.section-three .wrapper-title::after {
   content: '';
   display: block;
   width: 100px;
@@ -1270,6 +1274,7 @@ img {
 
 .content-two {
   display: none;
+  padding-top: 20px;
 }
 
 .content-two p {
