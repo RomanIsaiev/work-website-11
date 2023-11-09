@@ -423,6 +423,15 @@ img {
     font-size: 16px;
     max-width: 280px;
   }
+
+  .header-course-category {
+    font-size: 20px;
+  }
+
+  .header .bonus {
+    width: 189px;
+    height: 241px;
+  }
 }
 
 /* section-one */
