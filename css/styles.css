@@ -562,6 +562,12 @@ img {
   background-position: top 0 left 100px, top 400px left 0;
 }
 
+@media screen and (min-width: 1280px) {
+  .section-two .container {
+    background-position: top 0 left 340px, top 400px left 0;
+  }
+}
+
 .sect-two-title {
   color: var(--black, #070707);
   text-align: center;
@@ -1134,18 +1140,21 @@ img {
 
   margin-bottom: 10px;
 
-  animation: pulseScale 2000ms infinite;
+  animation: glowing-two 1300ms infinite;
 }
 
-@keyframes pulseScale {
+@keyframes glowing-two {
   0% {
-    scale: 1;
+    background-color: #ff698d;
+    box-shadow: 0 0 5px #ff698d;
   }
   50% {
-    scale: 1.08;
+    background-color: #fb2357;
+    box-shadow: 0 0 20px #fb2357;
   }
   100% {
-    scale: 1;
+    background-color: #ff698d;
+    box-shadow: 0 0 5px #ff698d;
   }
 }
 
@@ -1208,6 +1217,12 @@ img {
     url(../images/svg/section-five-ellipse-two.svg);
   background-repeat: no-repeat;
   background-position: right -10px top -10px, left 40px top 480px;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-four .container {
+    background-position: right 450px top -10px, left 500px top 580px;
+  }
 }
 
 .sect-four-title {
