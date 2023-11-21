@@ -80,6 +80,7 @@ img {
 .header-start {
   color: var(--black, #070707);
   font-family: Manrope;
+  text-align: center;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
