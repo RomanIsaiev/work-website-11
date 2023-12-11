@@ -1470,6 +1470,23 @@ img {
   line-height: normal;
 }
 
+.footer-social-text {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1280px) {
   .footer-deals a {
     font-size: 18px;
