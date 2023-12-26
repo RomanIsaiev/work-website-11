@@ -458,14 +458,9 @@
               Встигніть придбати зі <span>знижкою 85%</span>
             </p>
           </div>
-          <a
-            href="https://secure.wayforpay.com/button/be69daa49ee24"
-            class="buy-button link"
-            target="_blank"
-            rel="nofollow"
-          >
+          <button class="buy-button" data-action="open-modal">
             ПЕРЕЙТИ ДО ПОКУПКИ
-          </a>
+          </button>
           <p class="wrapper-description">
             Доступ до матеріалів:<br />
             <span>2 місяці зі зворотнім зв'язком в телеграм каналі</span>
@@ -699,8 +694,32 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <button
+          class="modal-close-button"
+          type="button"
+          data-action="close-modal"
+        >
+          <img
+            src="./images/close-modal-icon.svg"
+            alt=" close"
+            width="30"
+            height="30"
+          />
+        </button>
+        <div id="kwiga-widget-1703579411"></div>
+      </div>
+    </div>
     <script src="./js/jquery-3.7.0.min.js"></script>
     <script src="./js/faq.js"></script>
     <script src="./js/timer.js"></script>
+    <script src="./js/scroll.js" type="module"></script>
+    <script src="./js/js-modal.js" type="module"></script>
+
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1703579411&uuid=78e9ae97-073a-471d-80d5-9c71b64f85e6&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
